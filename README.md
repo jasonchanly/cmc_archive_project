@@ -1,6 +1,12 @@
-### CMC Archive Project
+# CMC Archive Project 
 
-Personal project to digitise 70+ years of concert programmes for my university's chamber music club into a searchable database (work in progress)
+Data pipeline to transform a chamber music club (CMC) archive of unstructured concert programmes into a queryable database. 
+
+Some concert programmes are currently accessible online in different formats: .doc, .docx, .pdf (with and without OCR), while others are only available in hard copy.
+
+The goal is to consolidate all these programmes into an easily searchable database that preserves the club's history and paves the way for potential applications e.g. trend analysis, repertoire recommendations.
+
+[Work in progress]
 
 1. `website_sweep.py` - access the chamber music club's website, sweep through URLs and download the concert programmes to be processed
 2. `identify_new_programmes.py` - create a list of files to be processed by filtering the downloaded programmes, removing any that have already been processed in the past. 
