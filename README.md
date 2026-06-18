@@ -1,10 +1,10 @@
 # CMC Archive Project 
 
-Data pipeline to transform a chamber music club (CMC) archive of unstructured concert programmes into a queryable database. 
+Data pipeline to transform a chamber music club (CMC) archive of unstructured concert programmes into a queryable database.
 
-Some concert programmes are currently accessible online in different formats: .doc, .docx, .pdf (with and without OCR), while others are only available in hard copy.
+Some concert programmes are currently accessible online in different formats: .doc, .docx, .pdf (with and without OCR), while others are only available in hard copy. The goal is to consolidate all these programmes into an easily searchable database that preserves the club's history and enables potential applications in the future e.g. trend analysis, repertoire recommendations.
 
-The goal is to consolidate all these programmes into an easily searchable database that preserves the club's history and enables potential applications in the future e.g. trend analysis, repertoire recommendations.
+OCR and structured parsing is currently handled by API calls to OpenAI models.
 
 [Work in progress]
 
