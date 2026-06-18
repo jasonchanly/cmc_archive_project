@@ -4,7 +4,7 @@ Data pipeline to transform a chamber music club (CMC) archive of unstructured co
 
 Some concert programmes are currently accessible online in different formats: .doc, .docx, .pdf (with and without OCR), while others are only available in hard copy.
 
-The goal is to consolidate all these programmes into an easily searchable database that preserves the club's history and paves the way for potential applications e.g. trend analysis, repertoire recommendations.
+The goal is to consolidate all these programmes into an easily searchable database that preserves the club's history and enables potential applications in the future e.g. trend analysis, repertoire recommendations.
 
 [Work in progress]
 
@@ -16,7 +16,6 @@ The goal is to consolidate all these programmes into an easily searchable databa
    2. `demo_programmes.py` - in-context examples
 5. `postprocess.py` - postprocess API outputs into DataFrame for manual inspection and cleaning using OpenRefine
 
-### Notes
+### To adapt it for your own project
 - Create a `archive_urls.txt` containing a list of URLs where concert programmes should be extracted
-
 - In `.env`, set OPENAI_API_KEY=[your_api_key]
