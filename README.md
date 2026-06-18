@@ -1,4 +1,4 @@
-# CMC Archive Project
+# CMC Archive Project 
 
 Data pipeline to transform a chamber music club (CMC) archive of unstructured concert programmes into a queryable database. 
 
