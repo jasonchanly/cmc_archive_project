@@ -16,6 +16,7 @@ The goal is to consolidate all these programmes into an easily searchable databa
    2. `demo_programmes.py` - in-context examples
 5. `postprocess.py` - postprocess API outputs into DataFrame for manual inspection and cleaning using OpenRefine
 
-Create a `archive_urls.txt` containing a list of URLs where concert programmes should be extracted
+### Notes
+- Create a `archive_urls.txt` containing a list of URLs where concert programmes should be extracted
 
-In `.env`, set OPENAI_API_KEY=[your_api_key]
+- In `.env`, set OPENAI_API_KEY=[your_api_key]
