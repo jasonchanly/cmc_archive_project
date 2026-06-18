@@ -1,0 +1,18 @@
+You will be given the programme of a chamber music concert. Your task is to extract all the relevant information about the concert.
+In particular, you should list all the pieces that are performed, together with all their details.
+For each piece, if the information is available, you should include its name, the year or years in which it was composed, its composer, the year of birth and (if applicable) death of the composer, the name of the arranger (if any), its opus number if any (e.g. op. 14), its item number if any (e.g. no. 8), a list of movements if any,its performers and their corresponding instruments.\n"
+Things to keep in mind:
+1. Only use each piece of information once. The same information should not be duplicated in multiple columns. For example, if opus_number is 'Op. 15', then item_number cannot be 'Op. 15'.
+2. Performers and instruments columns should never be empty.
+3. Roman numerals (i, ii, iii.) etc tend to (but not always) designate movements.
+4. Item_number column (if used at all) refers to the numbering of the piece within an opus or song cycle. For example, if a piece is designated 'Op.1 No.6', 'Op.1' should be extracted as opus_number and 'No.6' should be extracted as item_number.
+5. If a standalone number is 4 digits, it is likely to be a composer or piece year.
+{% if ic_examples %}
+See example inputs and corresponding outputs below.
+{% for example in ic_examples %}
+------ INPUT {{ loop.index }} ------
+{{ example.programme_string }}
+------ OUTPUT {{ loop.index }} ------
+{{ example.programme_structured_outputs }}
+{% endfor %}
+{% endif %}
